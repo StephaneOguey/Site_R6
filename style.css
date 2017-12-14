@@ -2,12 +2,16 @@ html {
   background: url("images/accueil/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 102%;
+  background-size: 1920px;
+  font-family: 'Impact Condensed', sans-serif;
+  font-style: normal;
+  font-size: 28px;
+
 }
 header{
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: rgb(20, 26, 35);
   height: 110px;
   margin-top: -9px;
   margin-left: -8px;
@@ -15,5 +19,27 @@ header{
 }
 header img {
   position: fixed;
+  top: 17px;
   left: 35px;
+}
+.boutique a{
+  position: fixed;
+  font-family: 'Impact Condensed', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  top: 22px;
+  left: 27.9vw;
+}
+.boutique a p {
+  margin: 0px;
+  padding: 0.5px;
+  color: black;
+  background-color: yellow;
+}
+.boutique img{
+  position: fixed;
+  left: 24.2vw;
+  top: 17px;
 }
